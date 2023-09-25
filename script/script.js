@@ -1,5 +1,5 @@
 // Función para manejar el desplazamiento suave al hacer clic en enlaces del menú
-/*
+
 document.querySelectorAll('a[href^="#"]').forEach(element => {
   element.addEventListener('click', function (e) {
     e.preventDefault();
@@ -15,4 +15,3 @@ document.querySelectorAll('a[href^="#"]').forEach(element => {
     }
   });
 });
-*/
