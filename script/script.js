@@ -1,5 +1,14 @@
-// Función para manejar el desplazamiento suave al hacer clic en enlaces del menú
+const myAtropos = Atropos({
+  el: '.my-atropos',
+  rotateXMax: 60,
+  rotateYMax: 65,
+  shadow: true,
+  shadowOffset: 75,
+  shadowScale: 0.9
+});
 
+
+// Función para manejar el desplazamiento suave al hacer clic en enlaces del menú
 document.querySelectorAll('a[href^="#"]').forEach(element => {
   element.addEventListener('click', function (e) {
     e.preventDefault();
