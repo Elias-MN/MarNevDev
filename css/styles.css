@@ -94,7 +94,7 @@ li, a, button{
   padding: 2rem 5%;
 }
 
-.proyects-container{
+#proyects-container{
   display: flex;
   justify-content: center;
   gap: 50px;
