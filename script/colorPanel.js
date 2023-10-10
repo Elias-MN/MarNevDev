@@ -1,9 +1,8 @@
-const colorPanelElement = document.getElementById("colorPanel")
-
+const colorPanelElement = document.getElementsByClassName("colorPanel")
 const DEFAULTROWS = window.innerWidth / 10;
 const DEFAULTCOLUMNS = 10;
 
-function generateGrid(maxRows, maxColumns) {
+function generateGrid(maxRows, maxColumns, position) {
   for (column = 0; column < maxColumns; column++) {
     let columnElement = document.createElement("div");
     columnElement.classList.add("col");
@@ -13,24 +12,18 @@ function generateGrid(maxRows, maxColumns) {
       boxElement.addEventListener('mouseover', setColor);
       columnElement.appendChild(boxElement);
     }
-    colorPanelElement.appendChild(columnElement);
+    colorPanelElement[position].appendChild(columnElement);
   }
 }
 
-
-
 function getRandomColor() {
-
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
-
   const rHex = r.toString(16).padStart(2, '0');
   const gHex = g.toString(16).padStart(2, '0');
   const bHex = b.toString(16).padStart(2, '0');
-
   const colorHex = `#${rHex}${gHex}${bHex}`;
-
   return colorHex;
 }
 
@@ -45,4 +38,10 @@ function setColor(event) {
   }, 500);
 }
 
-generateGrid(DEFAULTROWS, DEFAULTCOLUMNS);
+function addPanels() {
+  for (panel = 0; panel < colorPanelElement.length; panel++) {
+    generateGrid(DEFAULTROWS, DEFAULTCOLUMNS, panel);
+  }
+}
+
+addPanels();
