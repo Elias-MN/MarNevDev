@@ -1,0 +1,11 @@
+.col{
+  display: flex;ç
+  width: 100%;
+}
+
+.box{
+  width: 10%;
+  height: 10px;
+  background-color: #3e3e3e;
+  border: 1px solid black;
+}
