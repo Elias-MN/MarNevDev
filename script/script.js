@@ -18,13 +18,14 @@ document.querySelectorAll('a[href^="#"]').forEach(element => {
 const proyectContainerElement = document.getElementById("proyects-container");
 
 const proyects = [
-  { name: "Trello Personalizado", url: "https://elias-mn.github.io/NotasApp/", img: "./img/elias-mn.github.io_NotasApp.png" },
+  { name: "ToDo app", url: "https://elias-mn.github.io/NotasApp/", img: "./img/elias-mn.github.io_NotasApp.png" },
   { name: "Pokedex", url: "https://elias-mn.github.io/PokedexKanto/", img: "./img/elias-mn.github.io_PokedexKanto_.png" },
   { name: "Pomodoro", url: "https://elias-mn.github.io/Pomodoro/", img: "./img/elias-mn.github.io_Pomodoro.png" },
-  { name: "Tablero Canvas", url: "https://elias-mn.github.io/Tablero/", img: "./img/elias-mn.github.io_Tablero.png" },
+  { name: "Pizarra interactiva", url: "https://elias-mn.github.io/Tablero/", img: "./img/elias-mn.github.io_Tablero.png" },
   { name: "Codificador", url: "https://elias-mn.github.io/Codificacion-de-mensajes/", img: "./img/elias-mn.github.io_Codificacion-de-mensajes_.png" },
   { name: "Cumpleaños", url: "https://elias-mn.github.io/Cumpleanios/", img: "./img/elias-mn.github.io_Cumple.png" },
-  { name: "Calendario Escolar", url: "https://elias-mn.github.io/Calendario-Curso-Escolar/", img: "./img/elias-mn.github.io_Calendario.png" }
+  { name: "Calendario Escolar", url: "https://elias-mn.github.io/Calendario-Curso-Escolar/", img: "./img/elias-mn.github.io_Calendario.png" },
+  { name: "Reproductor de Música", url: "https://elias-mn.github.io/Reproductor/", img: "./img/elias-mn.github.io_Reproductor.png" }
 ];
 
 
