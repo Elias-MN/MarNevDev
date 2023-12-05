@@ -25,7 +25,9 @@ const proyects = [
   { name: "Codificador", url: "https://elias-mn.github.io/Codificacion-de-mensajes/", img: "./img/elias-mn.github.io_Codificacion-de-mensajes_.png" },
   { name: "Cumpleaños", url: "https://elias-mn.github.io/Cumpleanios/", img: "./img/elias-mn.github.io_Cumple.png" },
   { name: "Calendario Escolar", url: "https://elias-mn.github.io/Calendario-Curso-Escolar/", img: "./img/elias-mn.github.io_Calendario.png" },
-  { name: "Reproductor de Música", url: "https://elias-mn.github.io/Reproductor/", img: "./img/elias-mn.github.io_Reproductor.png" }
+  { name: "Reproductor de Música", url: "https://elias-mn.github.io/Reproductor/", img: "./img/elias-mn.github.io_Reproductor.png" },
+  { name: "Space Invaders", url: "https://elias-mn.github.io/Space-Invaders/", img: "./img/elias-mn.github.io_Game.png" },
+  { name: "Basket Traker", url: "https://elias-mn.github.io/Basket-Tracker/", img: "./img/elias-mn.github.io_Basket.png" },
 ];
 
 
