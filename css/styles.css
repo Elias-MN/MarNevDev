@@ -107,7 +107,8 @@ li, a, button{
 }
 
 .github-image{
-  width: 100%;
+  width: 300px;
+  height: 300px;
   filter: drop-shadow(3px -2px  2px black);
   cursor: pointer;
   border: 2px solid black;
